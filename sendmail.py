@@ -24,5 +24,5 @@ for row in cursor:
     s.sendmail(fromAddr, [toAddr], msg.as_string())
     s.quit()
 
-print "success"
+print "success" 
 
